@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24" height="14" viewBox="0 0 24 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Boat marker inspired by the CSS shape used in the app.
+       Use CSS or the 'fill' attribute to recolor (currentColor supported). -->
+  <g id="boat" fill="#FDD835" stroke="#FFFFFF" stroke-opacity="0.95" stroke-width="1.4">
+    <!-- Hull -->
+    <rect x="2" y="4" width="12" height="6" rx="2"/>
+    <!-- Bow (points to the right) -->
+    <polygon points="14,4 22,7 14,10"/>
+  </g>
+  <!-- Vector from the bow (optional): adjust x2 to your desired length -->
+  <line id="vector" x1="22" y1="7" x2="22" y2="7" stroke="none"/>
+  <!-- Anchor point is roughly the center of the hull (12,7) -->
+</svg>
